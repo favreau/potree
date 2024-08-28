@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Brain Platform Demos</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .title {
+            margin: 20px 0;
+            font-size: 2em;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .gallery-item {
+            display: flex;
+            margin: 10px;
+            width: 80%;
+            border: 1px solid #555;
+            padding: 10px;
+            background-color: #222;
+            transition: transform 0.2s;
+        }
+        .gallery-item img {
+            max-width: 250px;
+            max-height: 140px;
+            height: auto;
+            display: block;
+            margin-right: 20px;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .description {
+            text-align: left;
+            font-size: 18px;
+            color: white;
+        }
+        .caption {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 24px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Open Brain Platform Demos</div>
+    <div class="gallery">
+        <a href="neuroscience/neuron" target="_blank" class="gallery-item">
+            <img src="microcircuit.jpg" alt="Image 3">
+            <div class="description">
+                <div class="caption">Microcircuit</div>
+                <div>A neuronal microcircuit is the smallest functional ecosystem in any brain region that encompasses a diverse morphological and electrical assortment of neurons, and their synaptic interactions. Blue Brain has pioneered data-driven digital reconstructions and simulations of microcircuits to investigate how local neuronal structure gives rise to global network dynamics. These methods could be extended to digitally reconstruct microcircuits in any brain region.</div>
+            </div>
+        </a>
+        <a href="neuroscience/o1" target="_blank" class="gallery-item">
+            <img src="microcircuit_simulation.jpg" alt="Image 3">
+            <div class="description">
+                <div class="caption">Microcircuit simulation</div>
+                <div>Simulation Neuroscience is an emerging approach to integrate the knowledge dispersed throughout the field of neuroscience. The aim is to build a unified empirical picture of the brain, to study the biological mechanisms of brain function, behaviour and disease. This is achieved by integrating diverse data sources across the various scales of experimental neuroscience, from molecular to clinical, into computer simulations.</div>
+            </div>
+        </a>
+        <a href="neuroscience/thalamus/" target="_blank" class="gallery-item">
+            <img src="thalamus.jpg" alt="Image 3">
+            <div class="description">
+                <div class="caption">Thalamus and morphologies (4% density)</div>
+                <div>Thalamoreticular circuitry plays a key role in arousal, attention, cognition, and sleep spindles, and is linked to several brain disorders. A detailed computational model of mouse somatosensory thalamus and thalamic reticular nucleus has been developed to capture the properties of over 14,000 neurons connected by 6 million synapses.</div>
+            </div>
+        </a>
+        <a href="neuroscience/astrocytes" target="_blank" class="gallery-item">
+            <img src="ngv.jpg" alt="Image 2">
+            <div class="description">
+                <div class="caption">Neuro-Glia-Vasculature unit</div>
+                <div>As you read this page, your brain is engaging neurons and glia to process the information. This eventually increases the demand for neuronal metabolic energy leading to increased production of energy and local changes in the diameter of the proximal vessels to balance out this demand. The complex structural organization of the two dominant cell classes in the brain, neurons and glia, which play a role in these effects, is known as the Neuro-Glia-Vascular (NGV) system.</div>
+            </div>
+        </a>
+        <a href="neuroscience/brain" target="_blank" class="gallery-item">
+            <img src="ccfv3a_brain_atlas.jpg" alt="Image 1">
+            <div class="description">
+                <div class="caption">CCFv3 Brain Cell Atlas</div>
+                <div>The Blue Brain Cell Atlas is the first digital 3D cell atlas of the whole mouse brain. It provides neuroscientists with a unique insight into the cellular composition of the mouse brain. Users can view and download the number, major types and 3D positions of all neurons and glia in all 737 areas of the mouse brain.</div>
+            </div>
+        </a>
+        <a href="molecular_systems/full_scene" target="_blank" class="gallery-item">
+            <img src="sars_cov_2.jpg" alt="Image 3">
+            <div class="description">
+                <div class="caption">SARS-COV-2 virus</div>
+                <div>Severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑2) is a strain of coronavirus that causes COVID-19, the respiratory illness responsible for the COVID-19 pandemic. The virus previously had the provisional name 2019 novel coronavirus (2019-nCoV), and has also been called human coronavirus 2019 (HCoV-19 or hCoV-19)</div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
